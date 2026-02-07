@@ -1,0 +1,46 @@
+.main {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.main-title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 60px;
+}
+
+.section-title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+}
+
+h3 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+}
+
+a {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04rem;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
