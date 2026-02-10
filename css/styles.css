@@ -1,6 +1,15 @@
 
 /* #region main */
 
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: white;
+}
 
 h2 {
     font-family: "Roboto", sans-serif;
@@ -13,8 +22,8 @@ h2 {
 
 
 
-ul {
-    list-style-type: none;
+ul {    
+    list-style: none;
 }
 
 a {
@@ -37,15 +46,7 @@ a:focus {
 
 /* #region header */
 
-.main {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    background-color: white;
-    }
+
 
 .name-web {
     color: #4D5AE5;
@@ -240,7 +241,7 @@ a:focus {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-align: left;
 }
 
 .list-text-portfolio {
@@ -250,7 +251,7 @@ a:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-align: left;
 }
 
 
