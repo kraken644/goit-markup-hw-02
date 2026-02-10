@@ -1,14 +1,6 @@
 
 /* #region main */
-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    background-color: white;
-}
+
 
 h2 {
     font-family: "Roboto", sans-serif;
@@ -51,8 +43,9 @@ a:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
-}
+    color: #434455;
+    background-color: white;
+    }
 
 .name-web {
     color: #4D5AE5;
@@ -99,12 +92,11 @@ a:focus {
 .contact {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
-
 }
 
 .contact:hover,
@@ -172,9 +164,9 @@ a:focus {
     font-family: "Roboto", sans-serif;
     color: #434455;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-align: left;
 }
 
@@ -191,11 +183,26 @@ a:focus {
 }
 
 .section-team-list {
-    background-color: #F4F4FD;
+    background-color: white;
 }
 
-.lisst-title-team,
-.lisst-text-team {
+.list-title-team {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.list-text-team {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
